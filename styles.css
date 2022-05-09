@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:goldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+color: darkred;
+text-transform: uppercase;
+text-decoration: underline;
+text-align: center;
+
+margin-top: 5%;
+}
+
+#maindiv{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+   text-align: center;
+    height: 20rem;
+    width: 19rem;
+    margin-top: 3%;
+    margin-left: 38%;
+    border: 4px solid darkred;
+
+    border-radius: 10%;
+    background-color: white;
+    padding: 0.5rem;
+}
+
+
+.numbtn{
+    border : 2px solid darkred;
+    height: 3em;
+    width: 4em;
+    margin: 0.2em;
+   
+    color: darkred;
+    border-radius: 10%;
+    font-size: medium;
+    font-weight: bolder;
+    background-color: white;
+    text-align: center;
+}
+.numbtn:hover{
+    background-color:goldenrod;
+    color:firebrick;
+    box-shadow: inset;
+    text-shadow: 2px;
+}
+
+.clrbtn:hover{
+    background-color:goldenrod;
+    color:firebrick;
+    box-shadow: inset;
+    text-shadow: 2px;
+}
+
+.equalbtn:hover{
+    background-color:goldenrod;
+    color:firebrick;
+    box-shadow: inset;
+    text-shadow: 2px;
+}
+
+
+#display{
+    border: 4px solid goldenrod;
+    width:18rem;
+    height: 4rem;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    margin-bottom: 5%;
+    align-items: center;
+    background-color: darkred;
+    text-align: right;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+#numdiv{
+    background-color: white;
+    border-radius: 10%;
+}
+
+.clrbtn{
+    border : 2px solid darkred;
+    height: 3em;
+    width: 4em;
+    margin: 0.2em;
+    
+    color: darkred;
+    border-radius: 10%;
+    font-size: medium;
+    font-weight: bolder;
+    background-color: white;
+}
+
+.equalbtn{
+    height: 3em;
+    width: 4em;
+    margin: 0.2em;
+    border : 2px solid darkred;
+    color: darkred;
+    border-radius: 10%;
+    font-size: medium;
+    font-weight: bolder;
+    background-color: white;
+}
+
